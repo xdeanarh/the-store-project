@@ -1,0 +1,60 @@
+#logo-name {
+color: rgb(91, 35, 143);
+
+
+
+}
+nav a {
+    padding: 5px;
+    border: solid;
+    background-color: blueviolet;
+    color: white;
+   
+}
+/* .sponsored{
+    display: inline;
+} */
+ /* section img {
+    display: inline;
+ } */
+  .flex-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  /* img ~ h4{
+    position:sticky;
+  } */
+  section button{
+    background-color: blueviolet;
+    border:solid 3px;
+  }
+
+  #big-dress{
+    width: 100%;
+    height: 500px
+  }
+
+  #one {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  #p-d-p {
+    display: flex;
+    flex-direction: column;
+     gap: 5px; 
+    align-items: center;
+  }
+
+  .underline {
+    border-bottom: 2px solid cyan;
+  }
+  h1{
+    text-align: center;
+  }
+  .psection{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
