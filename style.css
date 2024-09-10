@@ -1,60 +1,106 @@
 #logo-name {
-color: rgb(91, 35, 143);
+  color: rgb(91, 35, 143);
 
 
 
 }
+
 nav a {
-    padding: 5px;
-    border: solid;
-    background-color: blueviolet;
-    color: white;
-   
+  padding: 5px;
+  border: solid;
+  background-color: blueviolet;
+  color: white;
+
 }
+
 /* .sponsored{
     display: inline;
 } */
- /* section img {
+/* section img {
     display: inline;
  } */
-  .flex-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  /* img ~ h4{
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* img ~ h4{
     position:sticky;
   } */
-  section button{
-    background-color: blueviolet;
-    border:solid 3px;
-  }
+section button {
+  background-color: blueviolet;
+  border: solid 3px;
+}
 
-  #big-dress{
-    width: 100%;
-    height: 500px
-  }
+#big-dress {
+  width: 100%;
+  height: 500px
+}
 
-  #one {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-  #p-d-p {
-    display: flex;
-    flex-direction: column;
-     gap: 5px; 
-    align-items: center;
-  }
+#one {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 
-  .underline {
-    border-bottom: 2px solid cyan;
-  }
-  h1{
-    text-align: center;
-  }
-  .psection{
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-  }
+#p-d-p {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+}
+
+.underline {
+  border-bottom: 2px solid cyan;
+}
+
+h1 {
+  text-align: center;
+}
+
+.psection {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+#contact {
+  text-align: center;
+}
+
+.box {
+  padding-bottom: 15px;
+  border: solid plum 3px;
+  width: 100%;
+  min-width: 400px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 3%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.fill {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  padding: 15px;
+}
+.fil{
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+#buttonstyle{
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30px;
+  width: 200px;
+}
+.flexbox {
+  display: flex;
+  width: 100%;
+}

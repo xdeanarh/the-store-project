@@ -1,50 +1,65 @@
 <html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>contactpage</title>
-    </head>
-    <body>
-        <header>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contactpage</title>
+    <link rel="stylesheet" href="/style.css" />
+</head>
+
+<body>
+    <header class="flex-container">
+        <div class="flex-container">
             <img src="/dress.png" width="50" height="50">
-            <h1><u>DEES clothing store</u></h1>
-            <nav>
-                <a href="/index.html" >
-                    <button>Home</button>
-                </a>
-                <a href="/all-products.html" >
-                    <button> All products </button>
-                </a>
-                <a href="/contact-page.html" >
-                    <button>Contact us</button>
-                </a>
-            <img src="/cart.png" width="40" height="40">
-            </nav>
-            <br><br>
-        </header>
-        <main>
+            <p id="logo-name">DEES clothing store</p>
+        </div>
+        <nav>
+            <a href="/index.html">Home</a>
+            <a href="/all-products.html">All products</a>
+            <a href="/contact-page.html">Contact us</a>
+        </nav>
+        <img src="/cart.png" width="30" height="30">
+    </header>
+    <main>
+        <div id="contact">
             <h1>Contact Us</h1>
-            <form>
-                <label for="firstname">Firstname</label>
-                <input type="text" id="firstname" name="firstname">
-                <label for="lastname">Lastname</label>
-                <input type="text" id="lastname" name="lastname">
-                <label for="email">Email</label>
-                <input type="text" id="email" name="email">
-                <label for="num">Phone number</label>
-                <input type="text" id="num" name="number"><br><br>
-                <label for="subject">Subject</label>
-                <input type="text" id="subject" name="subject">
-                <label for="message">Message</label>
-                <textarea name="message" id="message" cols="100" rows="10"></textarea><br><br>
-                <input type="checkbox" id="Cb" name="Cb">
-                <label for="Cb"> Remember me </label><br><br>
-                <button type="submit">SUBMIT</button>
-                
-            </form>
-        </main>
-        
-    </body>
-    </html>
+        </div>
+        <section class="contact-info ">
+            <form class="box">
+                <div class="flexbox">
+                    <div class="fill">
+                        <label for="firstname">Firstname</label>
+                        <input type="text" id="firstname" name="firstname">
+                    </div>
+                    <div class="fill">
+                        <label for="lastname">Lastname</label>
+                        <input type="text" id="lastname" name="lastname">
+                    </div>
+                </div>
+                <div class="flexbox">
+                    <div class="fill">
+                        <label for="email">Email</label>
+                        <input type="text" id="email" name="email">
+                    </div>
+                    <div class="fill">
+                        <label for="num">Phone number</label>
+                        <input type="text" id="num" name="number">
+                    </div>
+                </div>
+                <div class="fil">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject">
+                </div>
+                <div class="fil">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" cols="50" rows="10"></textarea>
+                </div>
+                <button id="buttonstyle" type="submit">SEND</button>
+        </section>
+        </form>
+    </main>
+
+</body>
+
 </html>
